@@ -377,7 +377,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "请接受弹窗的预设配置，若错过请重新打开链接，接口来源于各大厂AI，请勿违法使用。 \n 如果你有APIKEY可自行填入，本站保证不盗取您的APIKEY \n CAcode  All rights reserved.",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
